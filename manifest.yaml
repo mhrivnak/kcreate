@@ -1,0 +1,19 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm1
+spec:
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm2
+spec:
+
+---
+apiVersion: "app.example.com/v1alpha1"
+kind: "App"
+metadata:
+  name: "example"
